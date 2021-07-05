@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project 85</title>
+<!--font-family: 'STIX Two Math', serif;-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<style>
+body {
+	background-image: url("concrete-road.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#myCanvas {
+    margin-top: 30px;
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1, h4 {
+	color: rgb(255, 241, 43) !important;
+	font-family: 'STIX Two Math', serif;
+}
+
+b {
+	color: rgb(255, 169, 169) !important;
+}
+
+h4 {
+	font-size: 20px;
+}
+</style>
+</head>
+
+<body onload="add()">
+<center>
+<h1>VALET PARKING</h1>
+<h4>MOVE THE GREEN CAR WITH ARROW KEYS</h3>
+<h4><b>NOTE: </b>&nbsp; IF CAR IS NOT VISIBLE, PRESS ANY ARROW KEY</h4>
+<!--- Create Canvas--->
+<canvas id="myCanvas" width="800" height="400"></canvas>
+</center>
+<script src="code.js">
+</script>
+</body>
+</html>
